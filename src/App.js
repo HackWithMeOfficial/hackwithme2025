@@ -9,7 +9,7 @@ import Partners from './components/Partners';
 import GhostBot from './components/GhostBot';
 import Footer from './components/Footer';
 import RegisterRedirect from './components/RegisterRedirect';
-import DonateRedirect from './components/DonateRedirect';
+import Prizes from './components/Prizes';
 
 function App() {
   return (
@@ -24,12 +24,12 @@ function App() {
                 <HeroSection />
                 <About />
                 <ScheduleSection />
+                <Prizes />
                 <Partners />
               </>
             }
           />
           <Route path="/register" element={<RegisterRedirect />} />
-          <Route path="/donate" element={<DonateRedirect />} />
         </Routes>
         <GhostBot />
         <Footer />

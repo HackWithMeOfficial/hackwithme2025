@@ -5,18 +5,20 @@ import codecraftersLogo from '../assets/codecrafters.png';
 import axureLogo from '../assets/axure.png';
 import techinikaLogo from '../assets/techinika.png';
 import cakelogo from '../assets/interviewcake.png';
+import xyzlogo from '../assets/xyz.png';
 
 const Partners = () => {
   const partners = [
-    { id: 1, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
-    { id: 2, logo: techinikaLogo, alt: 'Techinika', link: 'https://techinika.co.rw/' },
-    { id: 3, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
-    { id: 4, logo: cakelogo, alt: 'Axure', link: 'https://www.interviewcake.com/' },
+    { id: 1, logo: techinikaLogo, alt: 'Techinika', link: 'https://techinika.co.rw/' },
+    { id: 2, logo: cakelogo, alt: 'Axure', link: 'https://www.interviewcake.com/' },
+    { id: 3, logo: xyzlogo, alt: '.XYZ', link: 'https://gen.xyz/' },
+    { id: 4, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
+    { id: 5, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
   ];
 
   return (
     <section className="partners-section" id="partners">
-      <h1 className="partners-title">Our Partners</h1>
+      <h1 className="partners-title">Our Sponsors</h1>
       <div className="partners-container">
         {partners.map((partner) => (
           <motion.div

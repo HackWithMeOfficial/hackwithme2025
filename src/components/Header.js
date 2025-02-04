@@ -58,19 +58,25 @@ function Header() {
           </li>
           <li>
             <a
+              href="#prizes"
+              onClick={(e) => {
+                e.preventDefault();
+                handleInternalLink('schedule');
+              }}
+            >
+              Prizes
+            </a>
+          </li>
+          <li>
+            <a
               href="#partners"
               onClick={(e) => {
                 e.preventDefault();
                 handleInternalLink('partners');
               }}
             >
-              Partners
+              Sponsors
             </a>
-          </li>
-          <li>
-            <Link to="/donate" onClick={toggleMenu}>
-              Donate
-            </Link>
           </li>
           <li>
             <Link to="/register" onClick={toggleMenu}>
