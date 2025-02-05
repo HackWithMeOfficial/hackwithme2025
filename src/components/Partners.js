@@ -2,7 +2,6 @@ import React from 'react';
 import './Partners.css';
 import { motion } from 'framer-motion';
 import codecraftersLogo from '../assets/codecrafters.png';
-import axureLogo from '../assets/axure.png';
 import techinikaLogo from '../assets/techinika.png';
 import cakelogo from '../assets/interviewcake.png';
 import xyzlogo from '../assets/xyz.png';
@@ -13,7 +12,6 @@ const Partners = () => {
     { id: 2, logo: cakelogo, alt: 'Axure', link: 'https://www.interviewcake.com/' },
     { id: 3, logo: xyzlogo, alt: '.XYZ', link: 'https://gen.xyz/' },
     { id: 4, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
-    { id: 5, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
   ];
 
   return (
