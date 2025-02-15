@@ -20,7 +20,7 @@ const FAQSection = () => {
       <div className="faq-card">
         <h3>Do I need to be an expert in coding to join?</h3>
         <p>
-          No! Hack With Me is for everyone, no matter your skill level. It’s a great chance to learn, work with others, and grow your coding skills.
+          No! you don’t need to be an expert, having some coding knowledge will help you contribute to a project.
         </p>
       </div>
       <div className="faq-card">
@@ -35,6 +35,12 @@ const FAQSection = () => {
           All you need is a laptop, a positive attitude, and your creativity. We’ll provide everything else, including food and drinks.
         </p>
       </div>
+      <div className="faq-card">
+        <h3>Is there a participation fee?</h3>
+        <p>
+          No, Hack With Me is completely free! We believe in making hackathons accessible to everyone, so there are no registration or participation fees.
+        </p>
+     </div>
     </div>
   );
 };
