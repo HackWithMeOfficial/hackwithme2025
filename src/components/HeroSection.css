@@ -1,0 +1,93 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    margin-top: 150px;
+    color: var(--primary-color);
+  }
+  
+  .hero-section h1 {
+    font-family: 'cCodetan', sans-serif;
+    font-size: 6rem;
+    margin: 20px 0;
+    color: var(--primary-color);
+  }
+  
+  .hero-section h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .hero-section h3 span {
+    font-weight: normal;
+  }
+  
+  .register-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .register-button .arrow {
+    margin-right: 10px;
+  }
+
+  .register-button:hover{
+    transform: scale(1.1);
+
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .hero-section p span {
+    font-weight: bold;
+  }
+  
+  .sponsor-link {
+    font-size: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .sponsor-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+  
+    .hero-section h3 {
+      font-size: 1.2rem;
+    }
+  
+    .register-button {
+      font-size: 0.9rem;
+    }
+  
+    .hero-section p {
+      font-size: 0.9rem;
+    }
+  
+    .sponsor-link {
+      font-size: 0.9rem;
+    }
+  }
