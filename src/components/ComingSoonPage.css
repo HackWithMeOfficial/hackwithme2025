@@ -1,0 +1,39 @@
+
+  .coming-soon-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: #669bbc;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .countdown span {
+    font-size: 1.5em;
+    margin: 0 0.5em;
+  }
+  
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 2em;
+    }
+  
+    .content p {
+      font-size: 1em;
+    }
+  
+    .countdown span {
+      font-size: 1.2em;
+    }
+  }
