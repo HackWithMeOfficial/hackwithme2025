@@ -12,7 +12,7 @@ const HeroSection = () => {
       <a href="https://lu.ma/b7vrg6t4" className="register-button">
         <span className="arrow">➔</span> Register now
       </a>
-      <a href="mailto:shyakachaste1@gmail.com" className="sponsor-link">Want to sponsor or volunteer?</a>
+      <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">Want to sponsor or volunteer?</a>
     </div>
   );
 };

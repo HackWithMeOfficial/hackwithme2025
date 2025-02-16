@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedin, FaHeart, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -15,6 +15,9 @@ const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/company/hack-with-me/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon linkedin-icon" />
+        </a>
+        <a href="mailto:hello@hackwithme2025.com" aria-label="Email" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope className="icon email-icon" />
         </a>
       </div>
       <a href="/" className="code-of-conduct-link">Code of Conduct</a>
