@@ -7,7 +7,7 @@ import image2 from '../assets/team/bonheur.jpg';
 const teamMembers = [
   {
     name: 'Shyaka Chaste',
-    role: 'Founder & co-organizer',
+    role: 'Founder & Co-organizer',
     linkedin: 'https://www.linkedin.com/in/shyakachaste',
     img: image1,
   },
@@ -29,13 +29,11 @@ const TeamSection = () => {
             <div className="team-img-wrapper">
               <img src={member.img} alt={member.name} className="team-img" />
             </div>
-            <div className="team-info">
-              <h3 className="team-name">{member.name}</h3>
-              <p className="team-role">{member.role}</p>
-              <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin">
-                <FaLinkedin />
-              </a>
-            </div>
+            <h3 className="team-name">{member.name}</h3>
+            <p className="team-role">{member.role}</p>
+            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin">
+              <FaLinkedin />
+            </a>
           </div>
         ))}
       </div>

@@ -1,27 +1,94 @@
 .schedule-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.schedule-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.schedule-day {
+  margin-bottom: 40px;
+}
+
+.day-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  background: #f5faff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.schedule-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.clock-icon {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin-right: 12px;
+}
+
+.schedule-details {
+  flex: 1;
+}
+
+.event-time {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.event-title {
+  font-size: 1rem;
+  color: var(--p-color);
+}
+
+@media (max-width: 768px) {
   .schedule-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    position: relative;
+    font-size: 2rem;
   }
-  
-  
-  .coming-soon {
-    font-size: 1.2rem;
-    color: var(--p-color);
-    animation: fadeIn 1s ease-in-out;
+  .schedule-grid {
+    grid-template-columns: 1fr;
   }
-  
-  @media (max-width: 768px) {
-    .schedule-title {
-      font-weight: 2rem;
-    }
+}
+
+@media (max-width: 480px) {
+  .day-title {
+    font-size: 1.5rem;
   }
+  .schedule-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .clock-icon {
+    margin-bottom: 8px;
+  }
+}

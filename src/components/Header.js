@@ -53,17 +53,6 @@ function Header() {
           </li>
           <li>
             <a
-              href="#sponsors"
-              onClick={(e) => {
-                e.preventDefault();
-                handleInternalLink('sponsors');
-              }}
-            >
-              Sponsors
-            </a>
-          </li>
-          <li>
-            <a
               href="#faq"
               onClick={(e) => {
                 e.preventDefault();
@@ -71,6 +60,17 @@ function Header() {
               }}
             >
               FAQ
+            </a>
+          </li>
+          <li>
+            <a
+              href="#sponsors"
+              onClick={(e) => {
+                e.preventDefault();
+                handleInternalLink('sponsors');
+              }}
+            >
+              Sponsors
             </a>
           </li>
           <li>
