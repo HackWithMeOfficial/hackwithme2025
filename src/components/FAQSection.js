@@ -14,7 +14,7 @@ const FAQSection = () => {
       <div className="faq-card">
         <h3>What is Hack With Me?</h3>
         <p>
-        Hack With Me is an annual 2-day coding hackathon designed for high schoolers or students between the ages of 15-20. Students come together to build projects, solve problems, and share their skills with others.
+        Hack With Me is an annual 2-day coding hackathon designed for high schoolers or recent graduates. Students come together to build projects, solve problems, and share their skills with others.
         </p>
       </div>
       <div className="faq-card">

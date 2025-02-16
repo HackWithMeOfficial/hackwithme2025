@@ -3,6 +3,8 @@ import { FaLinkedin } from 'react-icons/fa';
 import './TeamSection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/bonheur.jpg';
+import image3 from '../assets/team/kyungjin.png';
+
 
 const teamMembers = [
   {
@@ -16,6 +18,12 @@ const teamMembers = [
     role: 'Co-organizer',
     linkedin: 'https://www.linkedin.com/in/bonheur-iraguha-150894256/',
     img: image2,
+  },
+  {
+    name: 'Kyungjin Oh',
+    role: 'Co-organizer',
+    linkedin: 'https://www.linkedin.com/in/kyungjinohofficial/',
+    img: image3,
   },
 ];
 
