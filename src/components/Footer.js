@@ -7,17 +7,17 @@ const Footer = () => {
     <footer className="footer">
       <p>&copy; 2025 Hack With Me. All rights reserved.</p>
       <div className="social-icons">
-        <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/hackwithme_official" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon instagram-icon" />
         </a>
         <a href="https://github.com" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon github-icon" />
         </a>
-        <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/company/hack-with-me/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon linkedin-icon" />
         </a>
       </div>
-      <a href="/code-of-conduct" className="code-of-conduct-link">Code of Conduct</a>
+      <a href="/" className="code-of-conduct-link">Code of Conduct</a>
       <p className="created-by">
         Created with <FaHeart className="heart-icon" /> by <a href="https://shyakachaste.com" target="_blank" rel="noopener noreferrer">Shyaka Chaste</a>
       </p>
