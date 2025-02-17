@@ -41,6 +41,13 @@ const FAQSection = () => {
           No, Hack With Me is completely free! We believe in making hackathons accessible to everyone, so there are no registration or participation fees.
         </p>
      </div>
+     <div className="faq-card">
+        <h3>Can I organize Hack With Me in my community?</h3>
+        <p>
+          Yes! If you're interested in organizing Hack With Me in your community or country, we'd love to support you.  
+          Please contact us at <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">hello@hackwithme2025.com</a>.
+        </p>
+     </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const scheduleData = [
       { time: "9:00am - 10:00am", title: "Opening Remarks & Welcome" },
       { time: "10:00am - 11:00am", title: "Breakfast" },
       { time: "11:00am", title: "Hackathon Kickoff" },
-      { time: "11:00am - 10:30am", title: "Team Formation" },
+      { time: "11:00am - 11:30am", title: "Team Formation" },
       { time: "11:30am - 12:30pm", title: "Figma Workshop" },
       { time: "12:30pm - 1:30pm", title: "GitHub Essentials" },
       { time: "1:30pm - 2:30pm", title: "Lunch Break" },
