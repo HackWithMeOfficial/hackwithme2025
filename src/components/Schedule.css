@@ -13,6 +13,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .schedule-day {
@@ -23,7 +24,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   color: var(--primary-color);
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--secodary-color);
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
@@ -64,17 +65,21 @@
   font-weight: bold;
   color: #000;
   margin-bottom: 3px;
+  font-size: 1.1rem;
 }
 
 .event-title {
   font-size: 1rem;
   color: var(--p-color);
+  margin-top: 0;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
   .schedule-title {
     font-size: 2rem;
   }
+
   .schedule-grid {
     grid-template-columns: 1fr;
   }
@@ -84,11 +89,21 @@
   .day-title {
     font-size: 1.5rem;
   }
+
   .schedule-item {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .clock-icon {
     margin-bottom: 8px;
+  }
+
+  .event-time {
+    font-size: 1rem;
+  }
+
+  .event-title {
+    font-size: 1rem;
   }
 }

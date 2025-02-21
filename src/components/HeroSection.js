@@ -5,14 +5,14 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <h1>Hack With Me 2025</h1>
-      <h3>August 16-17, 2025 <span>In-person event</span></h3>
+      <h2>August 16-17, 2025 <span>In-person event in Kigali</span></h2>
       <p>
-        300 spots are still available for this exciting 2-day hackathon. Register now, deadline on <span>August 5, 2025</span>.
+        Join 300+ students for an exciting 2-day hackathon! Collaborate, build projects, and compete. Register now before the deadline on <strong>August 5, 2025</strong>.
       </p>
-      <a href="https://lu.ma/b7vrg6t4" className="register-button">
+      <a href="https://lu.ma/b7vrg6t4" className="register-button" title="Register for Hack With Me 2025" target="_blank" rel="noopener noreferrer">
         <span className="arrow">➔</span> Register now
       </a>
-      <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">
+      <a href="mailto:hello@hackwithme2025.com" className="sponsor-link" title="Partner with Hack With Me 2025">
         Want to sponsor or organize Hack With Me in your community?
       </a>
     </div>

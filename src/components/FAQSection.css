@@ -9,6 +9,8 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .faq-card {
@@ -31,12 +33,22 @@
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 .faq-card p {
   font-size: 1rem;
   color: var(--p-color);
   line-height: 1.6;
+}
+
+.faq-card a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.faq-card a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {

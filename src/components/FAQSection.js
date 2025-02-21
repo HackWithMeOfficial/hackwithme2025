@@ -3,7 +3,7 @@ import './FAQSection.css';
 
 const FAQSection = () => {
   return (
-    <div className="faq-section" id="faq">
+    <section className="faq-section" id="faq">
       <h2>FAQ</h2>
       <div className="faq-card">
         <h3>What is a Hackathon?</h3>
@@ -14,13 +14,13 @@ const FAQSection = () => {
       <div className="faq-card">
         <h3>What is Hack With Me?</h3>
         <p>
-        Hack With Me is an annual 2-day coding hackathon designed for high schoolers or recent graduates. Students come together to build projects, solve problems, and share their skills with others.
+          Hack With Me is an annual 2-day coding hackathon designed for high schoolers or recent graduates. Students come together to build projects, solve problems, and share their skills with others.
         </p>
       </div>
       <div className="faq-card">
         <h3>Do I need to be an expert in coding to join?</h3>
         <p>
-          No! you don’t need to be an expert, having some coding knowledge will help you contribute to a project.
+          No! You don’t need to be an expert, having some coding knowledge will help you contribute to a project.
         </p>
       </div>
       <div className="faq-card">
@@ -40,15 +40,14 @@ const FAQSection = () => {
         <p>
           No, Hack With Me is completely free! We believe in making hackathons accessible to everyone, so there are no registration or participation fees.
         </p>
-     </div>
-     <div className="faq-card">
+      </div>
+      <div className="faq-card">
         <h3>Can I organize Hack With Me in my community?</h3>
         <p>
-          Yes! If you're interested in organizing Hack With Me in your community or country, we'd love to support you.  
-          Please contact us at <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">hello@hackwithme2025.com</a>.
+          Yes! If you're interested in organizing Hack With Me in your community or country, we'd love to support you. Please contact us at <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">hello@hackwithme2025.com</a>.
         </p>
-     </div>
-    </div>
+      </div>
+    </section>
   );
 };
 

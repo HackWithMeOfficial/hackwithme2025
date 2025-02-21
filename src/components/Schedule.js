@@ -41,25 +41,25 @@ const scheduleData = [
 
 const Schedule = () => {
   return (
-    <div className="schedule-container" id="schedule">
+    <section className="schedule-container" id="schedule">
       <h2 className="schedule-title">Schedule</h2>
       {scheduleData.map((day, index) => (
-        <div key={index} className="schedule-day">
+        <article key={index} className="schedule-day">
           <h3 className="day-title">{day.day}</h3>
           <div className="schedule-grid">
             {day.events.map((event, idx) => (
               <div key={idx} className="schedule-item">
                 <FaClock className="clock-icon" />
                 <div className="schedule-details">
-                  <p className="event-time">{event.time}</p>
-                  <p className="event-title">{event.title}</p>
+                  <time className="event-time" dateTime={event.time}>{event.time}</time>
+                  <h4 className="event-title">{event.title}</h4>
                 </div>
               </div>
             ))}
           </div>
-        </div>
+        </article>
       ))}
-    </div>
+    </section>
   );
 };
 

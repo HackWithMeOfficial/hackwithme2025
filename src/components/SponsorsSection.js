@@ -6,20 +6,20 @@ import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
 
 const SponsorsSection = () => {
   return (
-    <div className="sponsors-section" id="sponsors">
-      <h2>Sponsors</h2>
+    <section className="sponsors-section" id="sponsors" aria-labelledby="sponsors-heading">
+      <h2 id="sponsors-heading">Sponsors</h2>
       <div className="sponsors-logos">
-        <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer">
-          <img src={sponsorLogo1} alt="Codecrafters" className="sponsor-logo" />
+        <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" aria-label="Codecrafters">
+          <img src={sponsorLogo1} alt="Codecrafters logo" className="sponsor-logo" loading="lazy" />
         </a>
-        <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer">
-          <img src={sponsorLogo2} alt=".XYZ" className="sponsor-logo" />
+        <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
+          <img src={sponsorLogo2} alt=".XYZ logo " className="sponsor-logo" loading="lazy" />
         </a>
-        <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer">
-          <img src={sponsorLogo3} alt="Interview Cake" className="sponsor-logo" />
+        <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer" aria-label="Interview Cake">
+          <img src={sponsorLogo3} alt="Interview Cake logo " className="sponsor-logo" loading="lazy" />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
