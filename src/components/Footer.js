@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaGithub, FaLinkedin, FaHeart, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedin, FaHeart, FaDiscord } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,19 +10,19 @@ const Footer = () => {
         <a href="https://www.instagram.com/hackwithme_official" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon instagram-icon" />
         </a>
-        <a href="https://github.com" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Hack-With-Me-Official" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon github-icon" />
         </a>
         <a href="https://www.linkedin.com/company/hack-with-me/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon linkedin-icon" />
         </a>
-        <a href="mailto:hello@hackwithme2025.com" aria-label="Email" target="_blank" rel="noopener noreferrer">
-          <FaEnvelope className="icon email-icon" />
+        <a href="https://discord.gg/vmPCkCze" aria-label="Email" target="_blank" rel="noopener noreferrer">
+          <FaDiscord  className="icon email-icon" />
         </a>
       </div>
       <a href="/" className="code-of-conduct-link">Code of Conduct</a>
       <p className="created-by">
-        Created with <FaHeart className="heart-icon" /> by <a href="https://shyakachaste.com" target="_blank" rel="noopener noreferrer">Shyaka Chaste</a>
+        Created with <FaHeart className="heart-icon" /> by <a href="https://github.com/shyakachaste" target="_blank" rel="noopener noreferrer">Shyaka Chaste</a>
       </p>
     </footer>
   );

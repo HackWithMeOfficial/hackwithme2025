@@ -1,7 +1,36 @@
-import React from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./AboutSection.css";
+import { FaDiscord } from "react-icons/fa";
 
 const AboutSection = () => {
+  const registrationDeadline = new Date("2025-08-05T23:59:59").getTime();
+
+  const calculateTimeLeft = useCallback(() => {
+    const now = new Date().getTime();
+    const difference = registrationDeadline - now;
+
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / (1000 * 60)) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  }, [registrationDeadline]);
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [calculateTimeLeft]);
+
   return (
     <div className="about-section" id="about">
       <div className="container">
@@ -11,27 +40,40 @@ const AboutSection = () => {
             Hack With Me is an annual 2-day coding hackathon designed for high schoolers. Students come together to build projects, solve problems, and share their skills with others, taking place every August.
           </p>
           <p>
-            The goal of Hack With Me is to make hackathons accessible to everyone. That’s why this year, we aim to bring together 300+ students to share their ideas and showcase their talents. If you’re interested in organizing Hack With Me in your community (or country), please contact us using the link above or email us at{" "}
-            <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">hello@hackwithme2025.com</a>.
+            The goal of Hack With Me is to make hackathons accessible to everyone. This year, we aim to bring together 300+ students to share their ideas and showcase their talents. If you’re interested in organizing Hack With Me in your community (or country), please contact us using the link above or email us at {" "}
+            <a href="mailto:hello@hackwithme2025.com" className="email-link">hello@hackwithme2025.com</a>.
           </p>
 
-          <div className="venue">
-            <h3>Location</h3>
-            <div className="location-info">
-              <p>Our event will be held at a modern venue in Kigali, Rwanda. Stay tuned for more details!</p>
-              <div className="location-map">
-                <iframe
-                  title="Venue Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255203.60532802224!2d29.96242731520134!3d-1.9294194478840436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali!5e0!3m2!1sen!2srw!4v1740164137444!5m2!1sen!2srw"
-                  width="600"
-                  height="450"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
-                  loading="lazy"
-                ></iframe>
+          <div className="countdown">
+            <h3>Registration Closes In</h3>
+            <div className="timer">
+              <div className="time-box">
+                <span>{timeLeft.days}</span>
+                <p>Days</p>
+              </div>
+              <div className="time-box">
+                <span>{timeLeft.hours}</span>
+                <p>Hours</p>
+              </div>
+              <div className="time-box">
+                <span>{timeLeft.minutes}</span>
+                <p>Minutes</p>
+              </div>
+              <div className="time-box">
+                <span>{timeLeft.seconds}</span>
+                <p>Seconds</p>
               </div>
             </div>
           </div>
+
+          <div className="venue">
+            <h3>Location</h3>
+            <p>Our event will be held at <strong>[Insert Venue Name Here]</strong> in Kigali, Rwanda. Stay tuned for more details!</p>
+          </div>
+
+          <a href="https://discord.gg/vmPCkCze" target="_blank" rel="noopener noreferrer" className="discord-button">
+            <FaDiscord className="discord-icon" /> Join Our Discord
+          </a>
         </div>
       </div>
     </div>

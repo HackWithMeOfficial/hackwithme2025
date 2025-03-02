@@ -38,7 +38,7 @@
 .schedule-item {
   display: flex;
   align-items: center;
-  background: #f5faff;
+ 
   padding: 15px;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

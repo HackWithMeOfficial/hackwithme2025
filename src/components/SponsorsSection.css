@@ -2,19 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
 }
 
 .sponsors-section h2 {
   font-size: 2.5rem;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   color: var(--primary-color);
   font-weight: 700;
-  position: relative;
-  z-index: 1;
   letter-spacing: 2px;
 }
 
@@ -23,19 +20,18 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 60px;
   max-width: 90%;
-  position: relative;
-  z-index: 1;
 }
 
 .sponsor-logo {
-  width: 250px;
+  width: 280px;
+  max-width: 100%;
   height: auto;
-  transition: transform 0.4s ease-in-out, filter 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
   filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.15));
   background: rgba(255, 255, 255, 0.95);
-  padding: 25px;
+  padding: 30px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -43,53 +39,41 @@
 }
 
 .sponsor-logo:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
   filter: drop-shadow(0px 15px 40px rgba(0, 0, 0, 0.3));
-}
-
-.sponsor-logo::before {
-  content: '';
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  border-radius: 50%;
-}
-
-.sponsor-logo:hover::before {
-  opacity: 1;
 }
 
 @media (max-width: 1024px) {
   .sponsors-logos {
-    gap: 60px;
+    gap: 50px;
   }
   .sponsor-logo {
-    width: 220px;
+    width: 280px;
+    padding: 25px;
   }
 }
 
 @media (max-width: 768px) {
   .sponsors-logos {
-    gap: 50px;
+    gap: 40px;
   }
   .sponsor-logo {
-    width: 180px;
+    width: 250px;
+    padding: 20px;
   }
   .sponsors-section h2 {
-    font-size: 3rem;
-    margin-bottom: 60px;
+    font-size: 2rem;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 480px) {
   .sponsors-logos {
-    gap: 40px;
+    gap: 30px;
+    flex-direction: column; 
   }
   .sponsor-logo {
-    width: 150px;
+    width: 240px;
     padding: 15px;
   }
   .sponsors-section h2 {

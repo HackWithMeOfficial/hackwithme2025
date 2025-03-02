@@ -84,9 +84,6 @@ function Header() {
               Team
             </a>
           </li>
-            <a href="/" onClick={toggleMenu}>
-              Projects
-            </a>
         </ul>
       </nav>
     </header>

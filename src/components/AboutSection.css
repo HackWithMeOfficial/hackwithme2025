@@ -34,18 +34,61 @@
   color: var(--p-color);
 }
 
+.email-link{
+  color: var(--secondary-color);
+}
+
+.countdown {
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+.countdown h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.time-box {
+  background: var(--primary-color);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.time-box span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.time-box p {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: white;
+}
+
+
 .venue {
   margin-top: 40px;
   padding: 20px;
   border: 2px solid var(--secondary-color);
   border-radius: 10px;
-  background-color: #f5faff;
 }
 
 .venue h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .venue p {
@@ -54,71 +97,77 @@
   margin-bottom: 20px;
 }
 
-.location-map {
-  margin-top: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.location-info {
-  text-align: center;
-  padding: 10px;
-}
-
-.location-map iframe {
-  width: 100%;
+.discord-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--button-color);
+  color: white;
+  padding: 12px 20px;
   border-radius: 8px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
 }
 
-.location-map iframe:hover {
+.discord-button:hover {
   transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
+}
+
+.discord-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
-  .about-content h2 {
-    font-size: 2.5rem;
-  }
-
-  .about-content p {
-    font-size: 1rem;
-  }
-
-  .venue h3 {
-    font-size: 1.5rem;
-  }
-
-  .venue p {
-    font-size: 1rem;
-  }
-
-  .location-map iframe {
-    height: 300px;
-  }
-}
-
-@media (max-width: 480px) {
   .about-content h2 {
     font-size: 2rem;
   }
 
   .about-content p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
+  .countdown h3,
   .venue h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
-  .venue p {
-    font-size: 0.9rem;
+  .time-box span {
+    font-size: 1.5rem;
   }
 
-  .location-map iframe {
-    height: 250px;
+  .discord-button {
+    font-size: 1rem;
   }
 }
 
+@media (max-width: 480px) {
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .timer {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .time-box {
+    min-width: 60px;
+    padding: 10px;
+  }
+
+  .discord-button {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
 
 @keyframes fadeIn {
   from {
