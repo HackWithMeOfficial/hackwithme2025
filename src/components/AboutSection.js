@@ -68,7 +68,7 @@ const AboutSection = () => {
 
           <div className="venue">
             <h3>Location</h3>
-            <p>Our event will be held at <strong>[Insert Venue Name Here]</strong> in Kigali, Rwanda. Stay tuned for more details!</p>
+            <p>Our event will be held at <strong>[Coming Soon]</strong> in Kigali, Rwanda. Stay tuned for more details!</p>
           </div>
 
           <a href="https://discord.gg/vmPCkCze" target="_blank" rel="noopener noreferrer" className="discord-button">
