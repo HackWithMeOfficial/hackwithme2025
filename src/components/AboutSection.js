@@ -40,7 +40,8 @@ const AboutSection = () => {
             Hack With Me is an annual 2-day coding hackathon designed for high schoolers. Students come together to build projects, solve problems, and share their skills with others, taking place every August.
           </p>
           <p>
-            The goal of Hack With Me is to make hackathons accessible to everyone. This year, we aim to bring together 300+ students to share their ideas and showcase their talents. 
+            The goal of Hack With Me is to make hackathons accessible to everyone. This year, we aim to bring together 300+ students to share their ideas and showcase their talents. If you’re interested in joining our team, please email us at {" "}
+            <a href="mailto:hello@hackwithme2025.com" className="email-link">hello@hackwithme2025.com</a>.
           </p>
 
           <div className="countdown">
@@ -69,8 +70,6 @@ const AboutSection = () => {
             <h3>Location</h3>
             <p>Our event will be held at <strong>[Coming Soon]</strong> in Kigali, Rwanda. Stay tuned for more details!</p>
           </div>
-If you’re interested in joining our team, please email us at {" "}
-            <a href="mailto:hello@hackwithme2025.com" className="email-link">hello@hackwithme2025.com</a>.
           <a href="https://discord.gg/vmPCkCze" target="_blank" rel="noopener noreferrer" className="discord-button">
             <FaDiscord className="discord-icon" /> Join Our Discord
           </a>

@@ -36,6 +36,11 @@
 
 .email-link{
   color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
 
 .countdown {
