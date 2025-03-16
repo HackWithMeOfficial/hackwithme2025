@@ -12,9 +12,10 @@ const HeroSection = () => {
       <a href="https://lu.ma/b7vrg6t4" className="register-button" title="Register for Hack With Me 2025" target="_blank" rel="noopener noreferrer">
         <span className="arrow">➔</span> Register now
       </a>
-      <a href="mailto:hello@hackwithme2025.com" className="sponsor-link" title="Partner with Hack With Me 2025">
-        Want to sponsor or organize Hack With Me in your community?
+      <a href="mailto:hello@hackwithme2025.com" className="sponsor-link" title="Get Involved with Hack With Me 2025">
+        Want to sponsor or volunteer for Hack With Me? Reach out to us!
       </a>
+
     </div>
   );
 };

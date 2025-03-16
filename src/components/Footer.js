@@ -16,11 +16,11 @@ const Footer = () => {
         <a href="https://www.linkedin.com/company/hack-with-me/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon linkedin-icon" />
         </a>
-        <a href="https://discord.gg/vmPCkCze" aria-label="Email" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/rpsY54CDjF" aria-label="Email" target="_blank" rel="noopener noreferrer">
           <FaDiscord  className="icon email-icon" />
         </a>
       </div>
-      <a href="/" className="code-of-conduct-link">Code of Conduct</a>
+
       <p className="created-by">
         Created with <FaHeart className="heart-icon" /> by <a href="https://github.com/shyakachaste" target="_blank" rel="noopener noreferrer">Shyaka Chaste</a>
       </p>

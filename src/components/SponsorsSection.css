@@ -2,82 +2,121 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
   text-align: center;
   width: 100%;
+  font-family: var(code-font);
+}
+
+.sponsors-section p{
+  font-size: 1.2rem;
+  color: var(--p-color);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .sponsors-section h2 {
   font-size: 2.5rem;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   color: var(--primary-color);
   font-weight: 700;
   letter-spacing: 2px;
 }
+
+
+.sponsor-tier {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: 12px;
+}
+
+.tier-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+
+.coming-soon {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--p-color);
+  font-style: italic;
+  padding-top: 5px;
+}
+
 
 .sponsors-logos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  max-width: 90%;
+  gap: 30px;
+  max-width: 100%;
 }
 
+
 .sponsor-logo {
-  width: 280px;
+  width: 220px;
   max-width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.15));
-  background: rgba(255, 255, 255, 0.95);
-  padding: 30px;
-  border-radius: 20px;
+  filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.1));
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .sponsor-logo:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0px 15px 40px rgba(0, 0, 0, 0.3));
+  transform: scale(1.05);
+  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.2));
 }
+
 
 @media (max-width: 1024px) {
   .sponsors-logos {
-    gap: 50px;
+    gap: 20px;
   }
   .sponsor-logo {
-    width: 280px;
-    padding: 25px;
+    width: 200px;
+    padding: 18px;
   }
 }
 
 @media (max-width: 768px) {
   .sponsors-logos {
-    gap: 40px;
+    gap: 15px;
   }
   .sponsor-logo {
-    width: 250px;
-    padding: 20px;
+    width: 180px;
+    padding: 15px;
   }
   .sponsors-section h2 {
     font-size: 2rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .sponsors-logos {
-    gap: 30px;
+    gap: 10px;
     flex-direction: column; 
   }
   .sponsor-logo {
-    width: 240px;
-    padding: 15px;
+    width: 170px;
+    padding: 10px;
   }
   .sponsors-section h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
   }
 }
