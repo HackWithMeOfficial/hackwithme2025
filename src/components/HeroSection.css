@@ -7,11 +7,10 @@
   height: 100vh;
   margin-top: 100px;
   color: var(--primary-color);
-  background-color: var(--background-color);
 }
 
 .hero-section h1 {
-  font-family: "cCodetan", sans-serif;
+  font-family: "Marimpa", sans-serif;
   font-size: 5rem;
   margin: 20px 0;
   color: var(--primary-color);

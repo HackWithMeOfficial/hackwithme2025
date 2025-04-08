@@ -68,7 +68,7 @@ const AboutSection = () => {
 
           <div className="venue">
             <h3>Location</h3>
-            <p>Our event will be held at <strong>[Coming Soon]</strong> in Kigali, Rwanda. Stay tuned for more details!</p>
+            <p>Our event will take place at <strong>Kigali Independent University</strong> in <strong>Gisozi</strong>, located at <strong>102 KG 14 Ave, Kigali</strong></p>
           </div>
           <a href="https://discord.gg/rpsY54CDjF" target="_blank" rel="noopener noreferrer" className="discord-button">
             <FaDiscord className="discord-icon" /> Join Our Discord

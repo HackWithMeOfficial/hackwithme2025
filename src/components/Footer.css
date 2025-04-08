@@ -25,21 +25,9 @@
   
   .icon:hover {
     transform: scale(1.1);
-    color: var(--button-color);
+    color: var(--secondary-color);
   }
   
-  
-  .code-of-conduct-link {
-    color: white;
-    text-decoration: underline;
-    margin-top: 10px;
-    font-size: 1rem;
-    transition: color 0.3s;
-  }
-  
-  .code-of-conduct-link:hover {
-    color: var(--button-color);
-  }
   
   .created-by {
     margin-top: 20px;
@@ -58,7 +46,7 @@
   }
   
   .created-by a:hover {
-    color: var(--button-color);
+    color: var(--secondary-color);
   }
   
 

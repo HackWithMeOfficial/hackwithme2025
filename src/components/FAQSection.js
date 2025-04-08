@@ -4,7 +4,7 @@ import './FAQSection.css';
 const FAQSection = () => {
   return (
     <section className="faq-section" id="faq">
-      <h2>FAQ</h2>
+      <h2>Faq</h2>
       <div className="faq-card">
         <h3>What is a Hackathon?</h3>
         <p>
@@ -14,7 +14,7 @@ const FAQSection = () => {
       <div className="faq-card">
         <h3>What is Hack With Me?</h3>
         <p>
-          Hack With Me is an annual 2-day coding hackathon designed for high schoolers or recent graduates. Students come together to build projects, solve problems, and share their skills with others.
+          Hack With Me is an annual 2-day coding hackathon designed for high schoolers. Students come together to build projects, solve problems, and share their skills with others.
         </p>
       </div>
       <div className="faq-card">
@@ -42,9 +42,9 @@ const FAQSection = () => {
         </p>
       </div>
       <div className="faq-card">
-        <h3>Can I organize Hack With Me in my community?</h3>
+        <h3>Will there be mentors to help us?</h3>
         <p>
-          Yes! If you're interested in organizing Hack With Me in your community or country, we'd love to support you. Please contact us at <a href="mailto:hello@hackwithme2025.com" className="sponsor-link">hello@hackwithme2025.com</a>.
+          Yes, we’ll have mentors around to guide you, answer questions, and support you if you get stuck at any point during the hackathon.
         </p>
       </div>
     </section>
