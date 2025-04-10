@@ -1,57 +1,52 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--p-color);
-    color: white;
-  }
-  
-  .footer p {
-    margin: 10px 0;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 30px;
-    margin: 10px 0;
-  }
-  
-  .icon {
-    font-size: 3rem;
-    color: white;
-    transition: transform 0.3s, color 0.3s;
-  }
-  
-  .icon:hover {
-    transform: scale(1.1);
-    color: var(--secondary-color);
-  }
-  
-  
-  .created-by {
-    margin-top: 20px;
-    font-size: 1rem;
-  }
-  
-  .created-by .heart-icon {
-    color: #c1121f;
-    margin: 0 5px;
-  }
-  
-  .created-by a {
-    color: white;
-    text-decoration: underline;
-    transition: color 0.3s;
-  }
-  
-  .created-by a:hover {
-    color: var(--secondary-color);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--p-color);
+  color: white;
+}
 
-  @media (max-width: 768px) {
-    .icon {
-      font-size: 2rem;
-    }
+.footer p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: white;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: var(--secondary-color);
+}
+
+.fiscal-note {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    font-size: 2rem;
   }
+
+  .fiscal-note {
+    font-size: 0.95rem;
+    padding: 0 20px;
+  }
+}
