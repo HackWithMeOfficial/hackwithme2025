@@ -24,7 +24,6 @@ const SponsorsSection = () => {
       {/* Gold */}
       <div className="sponsor-tier gold">
         <h3 className="tier-title">Gold</h3>
-        <p className="coming-soon">Coming Soon</p>
       </div>
 
       {/* Silver */}
@@ -33,9 +32,6 @@ const SponsorsSection = () => {
         <div className="sponsors-logos">
           <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" aria-label="Codecrafters">
             <img src={sponsorLogo1} alt="Codecrafters logo" className="sponsor-logo" loading="lazy" />
-          </a>
-          <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
-            <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
           </a>
           <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer" aria-label="Interview Cake">
             <img src={sponsorLogo3} alt="Interview Cake logo" className="sponsor-logo" loading="lazy" />
@@ -46,7 +42,11 @@ const SponsorsSection = () => {
       {/* Bronze */}
       <div className="sponsor-tier bronze">
         <h3 className="tier-title">Bronze</h3>
-        <p className="coming-soon">Coming Soon</p>
+        <div className="sponsors-logos">
+          <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
+            <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
+          </a>
+        </div>
       </div>
     </section>
   );

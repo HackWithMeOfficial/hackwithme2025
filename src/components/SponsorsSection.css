@@ -5,118 +5,101 @@
   padding: 80px 20px;
   text-align: center;
   width: 100%;
-  font-family: var(code-font);
-}
-
-.sponsors-section p{
-  font-size: 1.2rem;
-  color: var(--p-color);
-  text-align: center;
-  margin-bottom: 30px;
+  font-family: var(--code-font);
 }
 
 .sponsors-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
   color: var(--primary-color);
   font-weight: 700;
-  letter-spacing: 2px;
 }
 
+.sponsors-section p {
+  font-size: 1.15rem;
+  color: var(--p-color);
+  max-width: 700px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
 
 .sponsor-tier {
   width: 100%;
-  max-width: 800px;
-  padding: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  border: 2px solid var(--secondary-color);
+  max-width: 1000px;
+  margin-bottom: 50px;
+  padding: 30px 20px;
+  border: 1px solid var(--secondary-color);
   border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
 .tier-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+  font-size: 1.9rem;
+  font-weight: 600;
   color: var(--primary-color);
+  margin-bottom: 25px;
 }
-
-
-.coming-soon {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--p-color);
-  font-style: italic;
-  padding-top: 5px;
-}
-
 
 .sponsors-logos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  max-width: 100%;
+  gap: 35px;
+  margin-top: 10px;
 }
-
 
 .sponsor-logo {
   width: 220px;
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-  filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.1));
-  background: rgba(255, 255, 255, 0.9);
-  padding: 20px;
+  height: 120px;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 18px;
   border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.05));
 }
 
 .sponsor-logo:hover {
   transform: scale(1.05);
-  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.2));
-}
-
-
-@media (max-width: 1024px) {
-  .sponsors-logos {
-    gap: 20px;
-  }
-  .sponsor-logo {
-    width: 200px;
-    padding: 18px;
-  }
 }
 
 @media (max-width: 768px) {
-  .sponsors-logos {
-    gap: 15px;
-  }
   .sponsor-logo {
     width: 180px;
-    padding: 15px;
+    height: 100px;
+    padding: 14px;
   }
+
+  .tier-title {
+    font-size: 1.6rem;
+  }
+
   .sponsors-section h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 2.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .sponsors-logos {
-    gap: 10px;
-    flex-direction: column; 
+    flex-direction: column;
+    gap: 20px;
   }
+
   .sponsor-logo {
-    width: 170px;
-    padding: 10px;
+    width: 160px;
+    height: 90px;
+    padding: 12px;
   }
+
   .sponsors-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 1.9rem;
+  }
+
+  .tier-title {
+    font-size: 1.4rem;
   }
 }
