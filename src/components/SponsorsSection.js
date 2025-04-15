@@ -3,6 +3,7 @@ import './SponsorsSection.css';
 import sponsorLogo1 from '../assets/sponsors/codecrafters.png';
 import sponsorLogo2 from '../assets/sponsors/xyz.png';
 import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
+import sponsorLogo4 from '../assets/sponsors/wolfram.png';
 
 const SponsorsSection = () => {
   return (
@@ -13,7 +14,11 @@ const SponsorsSection = () => {
       {/* Platinum */}
       <div className="sponsor-tier platinum">
         <h3 className="tier-title">Platinum</h3>
-        <p className="coming-soon">Coming Soon</p>
+        <div className="sponsors-logos">
+          <a href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer" aria-label="Wolfram">
+            <img src={sponsorLogo4} alt="Wolfram logo" className="sponsor-logo" loading="lazy" />
+          </a>
+        </div>
       </div>
 
       {/* Gold */}
