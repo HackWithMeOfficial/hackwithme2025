@@ -17,8 +17,8 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <Schedule />
-      <FAQSection />
       <SponsorsSection />
+      <FAQSection />
       <TeamSection />
       <Footer />
     </div>

@@ -28,3 +28,13 @@
   line-height: 1.6;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .schedule-title{
+    font-size: 2rem;
+  }
+
+  .coming-soon-text {
+    font-size: 1rem;
+  }
+}
