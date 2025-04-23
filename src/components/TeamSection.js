@@ -9,19 +9,19 @@ import image3 from '../assets/team/kyungjin.png';
 const teamMembers = [
   {
     name: 'Shyaka Chaste',
-    role: 'Founder & Co-organizer',
+    role: 'Founder & Lead Organizer',
     linkedin: 'https://www.linkedin.com/in/shyakachaste',
     img: image1,
   },
   {
     name: 'Bonheur Iraguha',
-    role: 'Co-organizer',
+    role: 'Co-Organizer',
     linkedin: 'https://www.linkedin.com/in/bonheur-iraguha-150894256/',
     img: image2,
   },
   {
     name: 'Kyungjin Oh',
-    role: 'Co-organizer',
+    role: 'Co-Organizer',
     linkedin: 'https://www.linkedin.com/in/kyungjinohofficial/',
     img: image3,
   },
