@@ -5,6 +5,7 @@ import sponsorLogo2 from '../assets/sponsors/xyz.png';
 import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
 import sponsorLogo4 from '../assets/sponsors/wolfram.png';
 import sponsorLogo5 from '../assets/sponsors/thelinuxfoundation.png';
+import sponsorLogo6 from '../assets/sponsors/sentry.png';
 
 const SponsorsSection = () => {
   return (
@@ -16,6 +17,9 @@ const SponsorsSection = () => {
         </a>
         <a href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer" aria-label="Wolfram">
           <img src={sponsorLogo4} alt="Wolfram logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://sentry.io/" target="_blank" rel="noopener noreferrer" aria-label="Sentry">
+          <img src={sponsorLogo6} alt="Sentry logo" className="sponsor-logo" loading="lazy" />
         </a>
         <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" aria-label="Codecrafters">
           <img src={sponsorLogo1} alt="Codecrafters logo" className="sponsor-logo" loading="lazy" />
