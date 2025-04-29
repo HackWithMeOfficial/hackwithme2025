@@ -6,6 +6,7 @@ import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
 import sponsorLogo4 from '../assets/sponsors/wolfram.png';
 import sponsorLogo5 from '../assets/sponsors/thelinuxfoundation.png';
 import sponsorLogo6 from '../assets/sponsors/sentry.png';
+import sponsorLogo7 from '../assets/sponsors/aops.png';
 
 const SponsorsSection = () => {
   return (
@@ -29,6 +30,9 @@ const SponsorsSection = () => {
         </a>
         <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
           <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://artofproblemsolving.com/" target="_blank" rel="noopener noreferrer" aria-label="AoPS">
+          <img src={sponsorLogo7} alt="AoPS logo" className="sponsor-logo" loading="lazy" />
         </a>
       </div>
     </section>
