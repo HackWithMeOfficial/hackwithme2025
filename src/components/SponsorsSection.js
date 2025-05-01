@@ -3,7 +3,7 @@ import './SponsorsSection.css';
 import sponsorLogo1 from '../assets/sponsors/codecrafters.png';
 import sponsorLogo2 from '../assets/sponsors/xyz.png';
 import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
-import sponsorLogo4 from '../assets/sponsors/wolfram.png';
+import sponsorLogo4 from '../assets/sponsors/ULK LOGO.jpg';
 import sponsorLogo5 from '../assets/sponsors/thelinuxfoundation.png';
 import sponsorLogo6 from '../assets/sponsors/sentry.png';
 import sponsorLogo7 from '../assets/sponsors/aops.png';
@@ -20,9 +20,6 @@ const SponsorsSection = () => {
         <a href="https://dreamizeafrica.com/" target="_blank" rel="noopener noreferrer" aria-label="Dreamize Africa">
           <img src={sponsorLogo8} alt="Dreamize Africa logo" className="sponsor-logo" loading="lazy" />
         </a>
-        <a href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer" aria-label="Wolfram">
-          <img src={sponsorLogo4} alt="Wolfram logo" className="sponsor-logo" loading="lazy" />
-        </a>
         <a href="https://sentry.io/" target="_blank" rel="noopener noreferrer" aria-label="Sentry">
           <img src={sponsorLogo6} alt="Sentry logo" className="sponsor-logo" loading="lazy" />
         </a>
@@ -34,6 +31,9 @@ const SponsorsSection = () => {
         </a>
         <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
           <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://ulk.ac.rw/" target="_blank" rel="noopener noreferrer" aria-label="ULK">
+          <img src={sponsorLogo4} alt="ULK logo" className="sponsor-logo" loading="lazy" />
         </a>
         <a href="https://artofproblemsolving.com/" target="_blank" rel="noopener noreferrer" aria-label="AoPS">
           <img src={sponsorLogo7} alt="AoPS logo" className="sponsor-logo" loading="lazy" />
