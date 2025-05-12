@@ -4,7 +4,7 @@ import './TeamSection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/bonheur.jpg';
 import image3 from '../assets/team/kyungjin.png';
-
+import image4 from '../assets/team/kevin.jpg';
 
 const teamMembers = [
   {
@@ -24,6 +24,12 @@ const teamMembers = [
     role: 'Lead organizer',
     linkedin: 'https://www.linkedin.com/in/kyungjinohofficial/',
     img: image3,
+  },
+    {
+    name: 'Rukundo Kevin',
+    role: 'Lead organizer',
+    linkedin: 'https://www.linkedin.com/in/rukundokevin/',
+    img: image4,
   },
 ];
 
