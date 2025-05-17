@@ -42,7 +42,7 @@ const teamMembers = [
   {
     name: 'Mihigo Vaillant',
     role: 'Graphic Designer',
-    linkedin: 'https://www.linkedin.com/',
+    linkedin: 'https://www.instagram.com/lit_graphickle',
     img: image6,
   }
   
