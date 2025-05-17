@@ -5,6 +5,8 @@ import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/bonheur.jpg';
 import image3 from '../assets/team/kyungjin.png';
 import image4 from '../assets/team/kevin.jpg';
+import image5 from '../assets/team/jacob.jpg';
+import image6 from '../assets/team/vaillant.jpg';
 
 const teamMembers = [
   {
@@ -25,12 +27,25 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/kyungjinohofficial/',
     img: image3,
   },
-    {
+  {
     name: 'Rukundo Kevin',
     role: 'Lead organizer',
     linkedin: 'https://www.linkedin.com/in/rukundokevin/',
     img: image4,
   },
+    {
+    name: 'Akech Jacob',
+    role: 'Marketing Lead',
+    linkedin: 'https://www.linkedin.com/in/akech-jacob-majur-09948b313',
+    img: image5,
+  },
+  {
+    name: 'Mihigo Vaillant',
+    role: 'Graphic Designer',
+    linkedin: 'https://www.linkedin.com/',
+    img: image6,
+  }
+  
 ];
 
 const TeamSection = () => {
