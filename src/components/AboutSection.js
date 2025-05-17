@@ -37,10 +37,10 @@ const AboutSection = () => {
         <div className="about-content">
           <h2>About</h2>
           <p>
-            Hack With Me is an annual 2-day coding hackathon designed for high schoolers. Students come together to build projects, solve problems, and share their skills with others, taking place every August.
+            Hack With Me is an annual 24-Hours coding hackathon designed for high schoolers. Students come together to build projects, solve problems, and share their skills with others.
           </p>
           <p>
-            The goal of Hack With Me is to make hackathons accessible to everyone. This year, we aim to bring together 300+ students to share their ideas and showcase their talents. If you are interested in sponsoring us, volunteering, or joining our team, please email us at {" "}
+            The goal of Hack With Me is to make hackathons accessible to everyone. This year, we aim to bring together 300 students to share their ideas and showcase their talents. If you are interested in sponsoring us, volunteering, or joining our team, please email us at {" "}
             <a href="mailto:hello@hackwithme2025.com" className="email-link">hello@hackwithme2025.com</a>.
           </p>
 
