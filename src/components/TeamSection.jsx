@@ -5,7 +5,7 @@ import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/bonheur.jpg';
 import image3 from '../assets/team/kyungjin.png';
 import image4 from '../assets/team/kevin.jpg';
-import image5 from '../assets/team/jacob.jpg';
+import image5 from '../assets/team/regis.jpg';
 
 const teamMembers = [
   {
@@ -33,9 +33,9 @@ const teamMembers = [
     img: image4,
   },
     {
-    name: 'Akech Jacob',
-    role: 'Marketing Lead',
-    linkedin: 'https://www.linkedin.com/in/akech-jacob-majur-09948b313',
+    name: 'Kayitare Regis',
+    role: 'Graphic Designer',
+    linkedin: 'https://www.linkedin.com/in/kayitare-regis-b91b27356/',
     img: image5,
   },
   
