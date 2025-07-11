@@ -6,7 +6,7 @@ import sponsorLogo3 from '../assets/sponsors/interviewcake.png';
 import sponsorLogo4 from '../assets/sponsors/ULK LOGO.jpg';
 import sponsorLogo5 from '../assets/sponsors/thelinuxfoundation.png';
 import sponsorLogo6 from '../assets/sponsors/sentry.png';
-import sponsorLogo7 from '../assets/sponsors/aops.png';
+import sponsorLogo7 from '../assets/sponsors/Inspector-Planet-Black.jpeg';
 import sponsorLogo8 from '../assets/sponsors/dreamizeafrica.png';
 import sponsorLogo9 from '../assets/sponsors/github-education.png';
 
@@ -39,8 +39,8 @@ const SponsorsSection = () => {
         <a href="https://ulk.ac.rw/" target="_blank" rel="noopener noreferrer" aria-label="ULK">
           <img src={sponsorLogo4} alt="ULK logo" className="sponsor-logo" loading="lazy" />
         </a>
-        <a href="https://artofproblemsolving.com/" target="_blank" rel="noopener noreferrer" aria-label="AoPS">
-          <img src={sponsorLogo7} alt="AoPS logo" className="sponsor-logo" loading="lazy" />
+        <a href="https://inspectorplanet.com/" target="_blank" rel="noopener noreferrer" aria-label="Inspector Planet">
+          <img src={sponsorLogo7} alt="Inspector Planet logo" className="sponsor-logo" loading="lazy" />
         </a>
       </div>
     </section>
