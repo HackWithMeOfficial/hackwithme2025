@@ -3,7 +3,7 @@ import "./AboutSection.css";
 import { FaDiscord } from "react-icons/fa";
 
 const AboutSection = () => {
-  const registrationDeadline = new Date("2025-08-05T23:59:59").getTime();
+  const registrationDeadline = new Date("2025-08-08T23:59:59").getTime();
 
   const calculateTimeLeft = useCallback(() => {
     const now = new Date().getTime();
