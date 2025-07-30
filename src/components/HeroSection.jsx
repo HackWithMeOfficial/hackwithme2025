@@ -7,7 +7,7 @@ const HeroSection = () => {
       <h1>Hack With Me 2025</h1>
       <h2>August 16-17, 2025 <span>In-person event in Kigali</span></h2>
       <p>
-        Join 300 high schoolers for an exciting 24-Hours hackathon! Collaborate, build projects, and compete. Register now before the deadline on <strong>August 9, 2025</strong>.
+        Join 300 high schoolers for an exciting 2 days hackathon! Collaborate, build projects, and compete. Register now before the deadline on <strong>August 9, 2025</strong>.
       </p>
       <a href="https://lu.ma/b7vrg6t4" className="register-button" title="Register for Hack With Me 2025" target="_blank" rel="noopener noreferrer">
         <span className="arrow">➔</span> Register now

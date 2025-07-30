@@ -9,6 +9,7 @@ import sponsorLogo6 from '../assets/sponsors/sentry.png';
 import sponsorLogo7 from '../assets/sponsors/Inspector-Planet-Black.jpeg';
 import sponsorLogo8 from '../assets/sponsors/dreamizeafrica.png';
 import sponsorLogo9 from '../assets/sponsors/github-education.png';
+import sponsorLogo10 from '../assets/sponsors/Umurava.png';
 
 const SponsorsSection = () => {
   return (
@@ -21,26 +22,29 @@ const SponsorsSection = () => {
         <a href="https://github.com/education" target="_blank" rel="noopener noreferrer" aria-label="Github Edcucation">
           <img src={sponsorLogo9} alt="Github Education Logo" className="sponsor-logo" loading="lazy" />
         </a>
-        <a href="https://dreamizeafrica.com/" target="_blank" rel="noopener noreferrer" aria-label="Dreamize Africa">
-          <img src={sponsorLogo8} alt="Dreamize Africa logo" className="sponsor-logo" loading="lazy" />
-        </a>
         <a href="https://sentry.io/" target="_blank" rel="noopener noreferrer" aria-label="Sentry">
           <img src={sponsorLogo6} alt="Sentry logo" className="sponsor-logo" loading="lazy" />
-        </a>
-        <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" aria-label="Codecrafters">
-          <img src={sponsorLogo1} alt="Codecrafters logo" className="sponsor-logo" loading="lazy" />
-        </a>
-        <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer" aria-label="Interview Cake">
-          <img src={sponsorLogo3} alt="Interview Cake logo" className="sponsor-logo" loading="lazy" />
-        </a>
-        <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
-          <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
         </a>
         <a href="https://ulk.ac.rw/" target="_blank" rel="noopener noreferrer" aria-label="ULK">
           <img src={sponsorLogo4} alt="ULK logo" className="sponsor-logo" loading="lazy" />
         </a>
+        <a href="https://umurava.africa/" target="_blank" rel="noopener noreferrer" aria-label="Umurava">
+          <img src={sponsorLogo10} alt="Umurava logo" className="sponsor-logo" loading="lazy" />
+        </a>
         <a href="https://inspectorplanet.com/" target="_blank" rel="noopener noreferrer" aria-label="Inspector Planet">
           <img src={sponsorLogo7} alt="Inspector Planet logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://dreamizeafrica.com/" target="_blank" rel="noopener noreferrer" aria-label="Dreamize Africa">
+          <img src={sponsorLogo8} alt="Dreamize Africa logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" aria-label="Codecrafters">
+          <img src={sponsorLogo1} alt="Codecrafters logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer" aria-label=".XYZ">
+          <img src={sponsorLogo2} alt=".XYZ logo" className="sponsor-logo" loading="lazy" />
+        </a>
+        <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer" aria-label="Interview Cake">
+          <img src={sponsorLogo3} alt="Interview Cake logo" className="sponsor-logo" loading="lazy" />
         </a>
       </div>
     </section>
